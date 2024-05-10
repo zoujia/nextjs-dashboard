@@ -1,3 +1,8 @@
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: 'Customers'
+};
 
 export default async function Page() {
     // Tips: https://nextjs.org/learn/dashboard-app/streaming#fixing-the-loading-skeleton-bug-with-route-groups， 该文档的开头描述到，
